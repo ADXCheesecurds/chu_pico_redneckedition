@@ -4,13 +4,13 @@ The original guide: https://github.com/whowechina/chu_pico
 This guide is based on the chu_pico project, the only difference is that if you don't/want to build one with a PCB then this guide is for you 
 **THIS GUIDE IS ADHD-PROOF AND IS VERY EASY TO FOLLOW, IF YOU MANAGE TO SCREW UP IT IS ON YOU.**
 ## Precautions
-* **Some retards at Adafruit or whatever company that made the mpr121 PCB board decided that it's a good idea to pre-short the ground and the address,
-so cut it off by making an insertion right here, with a knife or whatever pointy object you have.**
+* Some retards at Adafruit or whatever company that made the mpr121 PCB board decided that it's a good idea to pre-short the ground and the address,
+so cut it off by making an insertion right here, with a knife or whatever pointy object you have.
 **CUT THE BLACK LINE DON'T CUT ANYONE ELSE. IF YOU DO IT IS DEAD.**
 <img src="doc/Cutter.png" width="30%">
 
-* **(A)** **Some retards at a Chinese company manufacturing the time of flight sensors didn't update the hardware address or have a faulty address that doesn't work with the Chu_Pico software (for some reason)
-make sure to replace it or update the firmware (DON'T ACTUALLY UPDATE THE FIRMWARE, THAT IT'S IMPOSSIBLE FOR THE AVERAGE JOE.)**
+* **(A)** Some retards at a Chinese company manufacturing the time of flight sensors didn't update the hardware address or have a faulty address that doesn't work with the Chu_Pico software (for some reason)
+make sure to replace it or update the firmware **(DON'T ACTUALLY UPDATE THE FIRMWARE, THAT IT'S IMPOSSIBLE FOR THE AVERAGE JOE.)**
 
 ## **WHAT YOU WILL NEED** (You could get these at Aliexpress or Amazon just type down the word)
 * 3-PIN RGB LIGHTS WITH A DENSITY OF AROUND 1.12 INCHES A LED (optional) **If you don't want your controller to light up like a Christmas tree** 
