@@ -16,7 +16,7 @@ make sure to replace it or update the firmware (DON'T ACTUALLY UPDATE THE FIRMWA
 * 3X MPR121
 * 5X VL53L0X **(THIS IS THE TIME OF FLIGHT SENSOR REFER TO (A) ABOVE**
 * Raspberry Pi Pico **(Don't get the W version)**
-* TCA9548A/PCA9548A **(
+* TCA9548A/PCA9548A **(THE SLASH MEAN GET ONE OF THESE NOT BOTH)**
 * Aluminium Foil (Best to use Copper tape) 
 * A Soldering Kit (optional) **IF YOU ARE NOT USING ONE USE TAPE OR SOME STRONG GLUE**
 * Tape
@@ -29,8 +29,8 @@ You will have 4 copper/aluminum tape lanes, One is SDA, SCL, GND, and 3.3V power
 * **SDA TO GP16**
 * **SCL TO GP17** 
 * **POWER TO 3V3_OUT** ***DON'T DO 3V3_EN***
-* **GROUND TO GND** *COULD BE ANY ACCORDING TO THE PINOUT* 
+* **GROUND TO GND** *(COULD BE ANY ACCORDING TO THE PINOUT)* 
+* **HERE IS THE PINOUT DO IT ACCORDINGLY**
 
-**HERE IS THE PINOUT DO IT ACCORDINGLY**
   <img src="doc/Pinout.png" width="30%">
 ## 2.
