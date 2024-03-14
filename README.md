@@ -26,9 +26,9 @@ make sure to replace it or update the firmware (DON'T ACTUALLY UPDATE THE FIRMWA
 
 ## 1. Copper Tape lanes
 You will have 4 copper/aluminum tape lanes, One is SDA, SCL, GND, and 3.3V power. Make sure they are not touching and label it or else your dementia ass brain will forget.
-**Connect to your Raspberry Pi Pico:**
  <img src="doc/Coppertape.png" width="70%">
-* **SDA TO GP16**
+ **Connect to your Raspberry Pi Pico:**
+* **SDA TO GP16**.
 * **SCL TO GP17** 
 * **POWER TO 3V3_OUT** ***DON'T DO 3V3_EN***
 * **GROUND TO GND** *(COULD BE ANY ACCORDING TO THE PINOUT)* 
