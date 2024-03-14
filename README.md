@@ -6,8 +6,8 @@ This guide is based on the chu_pico project, the only difference is that if you 
 ## Precautions
 * **Some retards at Adafruit or whatever company that made the mpr121 PCB board decided that it's a good idea to pre-short the ground and the address,
 so cut it off by making an insertion right here, with a knife or whatever pointy object you have.**
-# CUT THE BLACK LINE DON'T CUT ANYONE ELSE. IF YOU DO IT IS DEAD.
-<img src="doc/Cutter.png" width="80%">
+**CUT THE BLACK LINE DON'T CUT ANYONE ELSE. IF YOU DO IT IS DEAD.**
+<img src="doc/Cutter.png" width="30%">
 
 * **(A)** **Some retards at a Chinese company manufacturing the time of flight sensors didn't update the hardware address or have a faulty address that doesn't work with the Chu_Pico software (for some reason)
 make sure to replace it or update the firmware (DON'T ACTUALLY UPDATE THE FIRMWARE THAT IT'S IMPOSSIBLE FOR THE AVERAGE JOE).**
@@ -30,6 +30,7 @@ You will have 4 copper/aluminum tape lanes, One is SDA, SCL, GND, and 3.3V power
 * **SCL TO GP17** 
 * **POWER TO 3V3_OUT** ***DON'T DO 3V3_EN***
 * **GROUND TO GND** *COULD BE ANY ACCORDING TO THE PINOUT* 
+
 **HERE IS THE PINOUT DO IT ACCORDINGLY**
-  <img src="doc/Pinout.png" width="80%">
+  <img src="doc/Pinout.png" width="30%">
 ## 2.
